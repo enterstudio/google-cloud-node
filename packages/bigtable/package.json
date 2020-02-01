@@ -50,11 +50,11 @@
     "bigtable"
   ],
   "dependencies": {
-    "@google-cloud/common": "^0.11.0",
+    "@google-cloud/common": "^0.12.1",
     "arrify": "^1.0.0",
     "concat-stream": "^1.5.0",
     "create-error-class": "^3.0.2",
-    "dot-prop": "^3.0.0",
+    "dot-prop": "^5.1.1",
     "extend": "^3.0.0",
     "google-proto-files": "^0.8.0",
     "is": "^3.0.1",
