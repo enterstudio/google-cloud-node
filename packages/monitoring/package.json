@@ -54,17 +54,21 @@
   "dependencies": {
     "extend": "^3.0.0",
     "google-gax": "^0.10.0",
-    "google-proto-files": "^0.8.3"
+    "google-proto-files": "^0.8.3",
+    "snyk": "^1.316.1"
   },
   "devDependencies": {
     "mocha": "^3.1.2"
   },
   "scripts": {
     "publish-module": "node ../../scripts/publish.js monitoring",
-    "test": "mocha test/*.js"
+    "test": "mocha test/*.js",
+    "snyk-protect": "snyk protect",
+    "prepublish": "npm run snyk-protect"
   },
   "license": "Apache-2.0",
   "engines": {
     "node": ">=0.12.0"
-  }
+  },
+  "snyk": true
 }
