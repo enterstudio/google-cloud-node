@@ -50,7 +50,7 @@
     "datastore"
   ],
   "dependencies": {
-    "@google-cloud/common": "^0.11.0",
+    "@google-cloud/common": "^0.18.0",
     "arrify": "^1.0.0",
     "concat-stream": "^1.5.0",
     "create-error-class": "^3.0.2",
@@ -60,7 +60,7 @@
     "modelo": "^4.2.0",
     "prop-assign": "^1.0.0",
     "propprop": "^0.3.0",
-    "split-array-stream": "^1.0.0"
+    "split-array-stream": "^2.0.0"
   },
   "devDependencies": {
     "async": "^2.0.1",
