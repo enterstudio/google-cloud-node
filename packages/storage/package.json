@@ -50,14 +50,14 @@
     "storage"
   ],
   "dependencies": {
-    "@google-cloud/common": "^0.11.0",
+    "@google-cloud/common": "^0.13.2",
     "arrify": "^1.0.0",
     "async": "^2.0.1",
     "concat-stream": "^1.5.0",
     "create-error-class": "^3.0.2",
     "duplexify": "^3.2.0",
     "extend": "^3.0.0",
-    "gcs-resumable-upload": "^0.7.1",
+    "gcs-resumable-upload": "^0.8.1",
     "hash-stream-validation": "^0.2.1",
     "is": "^3.0.1",
     "mime-types": "^2.0.8",
