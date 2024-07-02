@@ -52,10 +52,10 @@
     "language"
   ],
   "dependencies": {
-    "@google-cloud/common": "^0.11.0",
+    "@google-cloud/common": "^0.18.0",
     "arrify": "^1.0.1",
     "extend": "^3.0.0",
-    "google-gax": "^0.10.0",
+    "google-gax": "^0.17.0",
     "google-proto-files": "^0.8.5",
     "is": "^3.0.1",
     "propprop": "^0.3.1",
